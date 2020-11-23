@@ -1,0 +1,387 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .instagrm-widget a {
+        width: 60px;
+    }
+    .service-item {
+        padding: 20px;
+    }
+    .pricing-item {
+        background: #f9f9f9;
+        padding: 40px;
+    }
+    .mainmenu ul li a {
+        padding: 30px 12px 30px;
+        font-size: 13px;
+    }
+    .sidebar-icon {
+        font-size: 25px;
+        width: 60px;
+    }
+    .funfact-item h5 {
+        font-size: 16px;
+    }
+
+    .odometer.odometer-auto-theme {
+        font-size: 40px;
+    }
+    .single-quate h1 {
+        font-size: 30px;
+    }
+    .testimonial-item {
+        padding: 25px;
+    }
+
+    .testimonial-head span {
+        font-size: 14px;
+    }
+
+    .testimonial-head img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .testimonial-head {
+        padding-left: 60px;
+    }
+    .experience-area {
+        padding-bottom: 100px;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .experience-area {
+        padding-bottom: 100px;
+    }
+    #rastan-slider-area .owl-nav div, #rastan-rero-area-four .owl-nav div {
+        display: none !important;
+    }
+    .exp-img {
+        margin-bottom: 30px;
+    }
+    .video-popup {
+        margin-bottom: 25px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+
+    .footer-menu {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer-menu ul li a {
+        padding: 0 20px;
+    }
+    .sidebar-icon {
+        display: none;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slicknav_nav a:hover {
+        background: transparent;
+    }
+    span.slicknav_menutxt {
+        display: none !important;
+    }
+    
+    .slicknav_nav .slicknav_row:hover {
+        color: #202332;
+    }
+    span.slicknav_icon {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .slicknav_nav {
+        background: #fff;        
+        box-shadow:0px 0px 42px rgba(212,215,255, .5);
+    }
+
+    .slicknav_nav a {
+        color: #202332;
+    }
+
+    .slicknav_nav ul {
+        margin: 0;
+    }
+    .slicknav_nav li {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .slicknav_nav ul li ul {
+        padding-left: 15px;
+    }
+    .slicknav_menu {
+        background: no-repeat;
+    }
+    .slicknav_menu {
+        position: absolute;
+        top: -50px;
+        right: 10px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        position: relative;
+        z-index: 1;
+    }
+    .header-top a {
+        font-size: 12px;
+    }
+    .header-social {
+        font-size: 12px;
+    }
+    .header-box-item {
+        padding-right: 12px;
+    }
+    .hero-text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-text h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .full-bg-item {
+        position: relative;
+        height: 100vh;
+    }
+    .wht-make-item:last-child {
+        margin: 0;
+    }
+    .pricing-item {
+        padding: 30px;
+    }
+    .call-to-action h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }    
+    .single-quate {
+        margin-bottom: 30px;
+    }
+    .service-single-item .wht-make-item.mb-50px {
+        margin-bottom: 50px;
+    }
+    .comment-form {
+        margin-bottom: 50px;
+    }
+
+    .widget {
+        padding-left: 0;
+    }
+    .contact-info-item {
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .odometer.odometer-auto-theme {
+        font-size: 35px;
+    }
+    .funfact-item h5 {
+        font-size: 16px;
+    }
+    .footer-widget-nav {
+        margin-bottom: 30px;
+    }
+    .team-image img {
+        width: 100%;
+    }
+    .footer-widget.instagrm-widget {
+        margin-bottom: 30px;
+    }
+    .footer-copyright {
+        text-align: center;
+    }
+
+    .footer-menu {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .video-popup {
+        margin-bottom: 30px;
+    }
+
+    .custom-heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .section-title h1 {
+        font-size: 35px;
+    }
+
+    .experience-area {
+        padding-bottom: 100px;
+    }
+
+    .exp-img {
+        margin-bottom: 30px;
+    }
+    .portfolio-filter ul li {
+        margin-bottom: 5px;
+        padding: 5px 15px;
+    }
+    .sidebar-icon {
+        display: none;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .slicknav_nav a:hover {
+        background: transparent;
+    }
+    span.slicknav_menutxt {
+        display: none !important;
+    }
+    
+    .slicknav_nav .slicknav_row:hover {
+        color: #202332;
+    }
+    span.slicknav_icon {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slicknav_nav .slicknav_row:hover {
+        background: transparent;
+    }
+    .slicknav_nav {
+        background: #fff;        
+        box-shadow:0px 0px 42px rgba(212,215,255, .5);
+    }
+
+    .slicknav_nav a {
+        color: #202332;
+    }
+
+    .slicknav_nav ul {
+        margin: 0;
+    }
+    .slicknav_nav li {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .slicknav_nav ul li ul {
+        padding-left: 15px;
+    }
+    .slicknav_menu {
+        background: no-repeat;
+    }
+    .slicknav_menu {
+        position: absolute;
+        top: -50px;
+        right: 10px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    .mainmenu-area {
+        padding: 10px;
+    }
+    .header-icon-box {
+        text-align: center;
+    }
+
+    .header-top-right {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    ul.header-social {
+        margin-top: 10px;
+    }
+    .hero-text h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .hero-text h4 {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .index-map{
+        margin-bottom: 30px;
+    }
+    .call-to-action h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .what-make-us-area .container-fluid {
+        padding: 0 30px;
+    }
+
+    .full-bg-item {
+        display: none;
+    }
+
+    .what-make-us-area .pdt-50px {
+        padding-top: 0;
+    }
+    #rastan-slider-area .owl-nav div, #rastan-rero-area-four .owl-nav div {
+        display: none !important;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .slide-btn{
+        margin-bottom: 10px;
+    }
+
+    .single-quate {
+        margin-bottom: 30px;
+    }
+    .breadcrumb-text h1 {
+        font-size: 45px;
+    }
+    .partners-logo {
+        margin-bottom: 30px;
+    }
+    .comment-form {
+        margin-bottom: 50px;
+    }
+
+    .widget {
+        padding-left: 0;
+    }
+    .contact-info-item {
+        margin-bottom: 30px;
+    }
+    .contact-area {
+        padding-top: 70px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+}
+
+
+
